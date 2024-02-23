@@ -5,6 +5,7 @@ const searchIcon = document.getElementById("_searchIcon");
 const closeIcon = document.getElementById("_closeIcon");
 
 button.addEventListener('click', () => {
+
         container.classList.toggle('active')
         button.classList.toggle('active')
 
@@ -12,6 +13,7 @@ button.addEventListener('click', () => {
             searchIcon.classList.toggle('active')
             closeIcon.classList.toggle('active')
             input.focus()
+
         } else {
             searchIcon.classList.toggle('active')
             closeIcon.classList.toggle('active')
